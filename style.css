@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+    background-image: url(https://images.unsplash.com/photo-1593427934550-4742b652ac84?);
+    background-size: cover;
+}   
+.hero{
+    background: rgb(207, 14, 66);
+    text-align: center;
+    padding: 40px;
+}
+.hero h1 {
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 350%;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-family: inherit;
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+
+
+.attraction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.attraction-box {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    border-radius: 20px;
+}
+
+.attraction-box img {
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+.attraction-box h3 {
+    font-size: 120%;
+    margin-top: 10px;
+}
+
+.attraction-box p {
+    font-size: 90%;
+    color: #000000;
+}
+
+/* Review section styles */
+.review {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.review p {
+    font-size: larger;
+}
+
+
+footer {
+    text-align: center;
+    padding: 5px ;
+    background-color: transparent;
+    color: #fff;
+    position: fixed;
+    margin-top: 30px;
+    width: 100%;
+    text-align: bold;
+}
+.attraction-box:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
